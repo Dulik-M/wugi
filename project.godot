@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="wugi"
-run/main_scene="uid://d15ehaour68v"
-config/features=PackedStringArray("4.5", "Forward Plus")
+run/main_scene="uid://dajr2td3720kj"
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -22,7 +22,7 @@ SystemConsole="*res://karol/Scripts/SystemConsole.cs"
 
 [display]
 
-window/size/viewport_width=400
+window/size/viewport_width=500
 window/size/viewport_height=400
 window/size/transparent=true
 window/size/no_focus=true
