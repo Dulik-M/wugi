@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://dickydhcrd6rx"]
 
-[ext_resource type="Script" uid="uid://7ek2vw1g0g3n" path="res://ppm-menu/menu.gd" id="1_fwxjl"]
-[ext_resource type="Theme" uid="uid://blvlxadp1s3fe" path="res://ppm-menu/menu.tres" id="2_g5li0"]
-[ext_resource type="Texture2D" uid="uid://dw2bghsnaw7r3" path="res://ppm-menu/mouse.png" id="3_1tbby"]
+[ext_resource type="Script" uid="uid://7ek2vw1g0g3n" path="res://marcin/ppm-menu/menu.gd" id="1_fwxjl"]
+[ext_resource type="Theme" uid="uid://blvlxadp1s3fe" path="res://marcin/ppm-menu/menu.tres" id="2_g5li0"]
+[ext_resource type="Texture2D" uid="uid://dw2bghsnaw7r3" path="res://marcin/ppm-menu/mouse.png" id="3_1tbby"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1tbby"]
 bg_color = Color(0.28235295, 0.34901962, 0.4, 1)
