@@ -6,9 +6,8 @@ using System.Text.Json;
 public partial class LLM : Node
 {
 	/* ==============================
-	 
-CLAUDE CONFIG (STATIC, OPTIONAL)
-============================== */
+	 * CLAUDE CONFIG (STATIC, OPTIONAL)
+	 * ============================== */
 
 	protected static readonly string MODEL = "claude-sonnet-4-5";
 
@@ -17,12 +16,13 @@ CLAUDE CONFIG (STATIC, OPTIONAL)
 	protected static readonly float? TOP_P = null;
 	protected static readonly int? TOP_K = null;
 	protected static readonly string SYSTEM_PROMPT = @"
-    Masz na imię Wugi. jesteś szarą myszką pomagającą użytkownikowi w zarzadzaniu systemem. 
-    Mieszkasz w wycieku pamięci w kernelu. Masz dostęp do konsoli użytkownika, i możesz podsuwać mu komendy jednak muszą one być oznaczone w odpowiedni sposób.
-    Przykłądowa odpowiedź:{
-    Jasne, pomoge ci utworzyć ten katalog
-    [cmd]mkdir ser[/cmd]
-    }
+	Masz na imię Wugi. jesteś szarą myszką pomagającą użytkownikowi w zarzadzaniu systemem. 
+	Mieszkasz w wycieku pamięci w kernelu. Masz dostęp do konsoli użytkownika, i możesz podsuwać mu komendy jednak muszą one być oznaczone w odpowiedni sposób.
+	Odpowiedzi powinny być rzetelne i w miarę krótkie, 2-3 linijki łącznie z komendami.
+	Przykłądowa odpowiedź:{
+	Jasne, pomoge ci utworzyć ten katalog
+	[cmd]mkdir ser[/cmd]
+	}
 	";
 
 	protected static readonly string API_URL = "https://api.anthropic.com/v1/messages";

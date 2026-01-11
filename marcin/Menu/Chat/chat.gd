@@ -98,6 +98,7 @@ func _on_chat_response(text: String) -> void:
 		var clean := line.strip_edges()
 		if clean.is_empty():
 			continue
+
 		if clean.begins_with("[cmd]"):
 			var cmd := clean.substr(5).strip_edges()
 			if cmd.ends_with("[/cmd]"):
